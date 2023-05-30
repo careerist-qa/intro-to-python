@@ -45,9 +45,3 @@ result_division_remainder = None
 m = 5
 n = 2
 result_power = None
-
-
-# Convert an o variable to negative. Save the expression to the result_negative variable
-
-o = 100
-result_negative = None

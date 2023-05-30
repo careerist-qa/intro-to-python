@@ -1,9 +1,3 @@
-# Find the second power of a variable. Save the expression to result_1 variable
-
-a = 10
-result_1 = None
-
-
 # Convert integer variable b to a float. Save the expression to result_2 variable
 
 b = 10
