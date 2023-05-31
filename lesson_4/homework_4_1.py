@@ -1,50 +1,45 @@
-# Save to variable result_1 the first character of string_1 variable. In result_2 save the last character
-# of string_1. Use indexes.
+# Enter two numbers. If the first one is greater than the second, save first number in result_1,
+# otherwise save the second number to the result_1 variable.
 
-string_1 = 'Python'
+first_number = None
+second_number = None
 result_1 = None
+
+# Enter a random number in number_1 variable. If this number is 20 or
+# higher save “Too high” text to result_2, otherwise save “Thank you”.
+number_1 = None
 result_2 = None
 
 
-# Save to variable result_3 string value from string_2 variable, written in reverse order, using concatenation.
+# Enter your first name and last name in first_name and last_name variables. If the length of your first name is under
+# five characters, join them together (without a space) and save it to result_3 variable in upper case. If the length
+# of the first name is five or more characters, save their first name in lower case in result_3 variable.
 
-string_2 = 'Python'
+first_name = None
+last_name = None
 result_3 = None
 
 
-# Slice string string_3 from 5th to 20th (excluding 20th) character and save the result to variable result_4
+# Enter a number between 10 and 20 (inclusive) and save number to number_2 variable
+# If they enter a number within this range, save a message “Thank you” to result_4, otherwise a
+# message “Incorrect answer” to result_4.
 
-string_3 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
+number_2 = None
 result_4 = None
 
 
-# Slice string string_4 from 10th character to the end of the string. Save only every second character to variable
-# result_5
+# Enter your age. If you are 18 or over, save the message “You can vote” in result_5,
+# if you are aged 17, save the message “You can learn to drive” in result_5 variable,
+# if you are 16, save the message “You can buy a lottery ticket” in result_5,
+# if you are under 16, save the message “You can go Trick-or-Treating” in result_5 variable.
 
-string_4 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
+age = None
 result_5 = None
 
 
-# Slice string string_5 from the first to the last character, save only every forth character and
-# save the result to variable result_6
+# Enter a number between 1 and 12, save this value to month variable. Find which month is it.
+# (January, February, March, April, May, June, Jule, August, September, October, November, December)
+# Write answer in result_month in lower case
 
-string_5 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
-result_6 = None
-
-
-# Slice string string_6 from the first to 14th (including 14th) character, save only every third character and save
-# the result to variable result_7
-
-string_6 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
-result_7 = None
-
-
-# Save to variable result_8 string value from string_7 variable, written in reverse order, using slicing.
-
-string_7 = 'Python'
-result_8 = None
-
-
-# Create a range of numbers from 0 to 10 (excluding 10) and save it to result_9 variable
-
-result_9 = None
+month = None
+result_month = None

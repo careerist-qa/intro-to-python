@@ -1,40 +1,50 @@
-# FUNCTIONS
+# Save to variable result_1 the first character of string_1 variable. In result_2 save the last character
+# of string_1. Use indexes.
 
-# Difference
-# Write a function, which will calculate the difference of these two numbers
-
-def difference(num_1, num_2):
-    pass
-
-
-# Division
-# Write a function, which will divide these two numbers
-
-def division(num_1, num_2):
-    pass
+string_1 = 'Python'
+result_1 = None
+result_2 = None
 
 
-# Function gets random number. If this number is more than ten, return the difference between 100 and this number,
-# otherwise return this number multiplied by 10
+# Save to variable result_3 string value from string_2 variable, written in reverse order, using concatenation.
 
-def function_1(number):
-    pass
-
-
-# Your function temerature_convertor gets the temperature in Fahrenheit, convert it to Celsius and return.
-# Formula (32°F − 32) × 5/9 = 0°C
-
-def temerature_convertor(fahrenheit_degree):
-    pass
+string_2 = 'Python'
+result_3 = None
 
 
-# Taxi Fare
-# In a particular jurisdiction, taxi fares consist of a base fare of $4.00, plus $0.25 for every 140 meters travelled.
-# Write a function that takes the distance travelled (in kilometers) as its only parameter and returns the total fare
-# as its only result rounded by 2 digits. Write a program that demonstrates the function.
+# Slice string string_3 from 5th to 20th (excluding 20th) character and save the result to variable result_4
 
-def taxi_fare(distance):
-    pass
+string_3 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
+result_4 = None
 
-# examples of usage:
-# taxi_fare(10) #21.86
+
+# Slice string string_4 from 10th character to the end of the string. Save only every second character to variable
+# result_5
+
+string_4 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
+result_5 = None
+
+
+# Slice string string_5 from the first to the last character, save only every forth character and
+# save the result to variable result_6
+
+string_5 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
+result_6 = None
+
+
+# Slice string string_6 from the first to 14th (including 14th) character, save only every third character and save
+# the result to variable result_7
+
+string_6 = 'Python is a programming language that lets you work quickly and integrate systems more effectively'
+result_7 = None
+
+
+# Save to variable result_8 string value from string_7 variable, written in reverse order, using slicing.
+
+string_7 = 'Python'
+result_8 = None
+
+
+# Create a range of numbers from 0 to 10 (excluding 10) and save it to result_9 variable
+
+result_9 = None
