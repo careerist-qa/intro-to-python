@@ -15,6 +15,6 @@ student!name = 'John Doe'
 # Calculate average_mark
 
 # Print Results
-print("Student Name:", student!name)
-print("Total Marks:", total_marks)
-print("Average Mark:", average_mark)
+print('Student Name: ', student!name)
+print('Total Marks: ', total_marks)
+print('Average Mark: ', average_mark)
