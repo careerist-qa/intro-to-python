@@ -119,7 +119,7 @@ reversed_list = list(reversed(my_list))
 reversed_list = my_list[::-1]
 ```
 
-## Aggregators
+## Aggregators ⚙
 
 ```python
 # The lowest value in a list. NOT the lowest index. Only works with elements of the same type (numbers and strings).
@@ -135,7 +135,8 @@ sum([1, 2, 3]) #6
 sum([1, 2, 3, True]) # 7, since True is like 1.
 ```
 
-## Helpers
+## Helpers 💪🏻
+
 ```python
 # If you need to know how many elements a list has.
 len([1, 2, 3, 4, 5]) # The list contains 5 numbers.
