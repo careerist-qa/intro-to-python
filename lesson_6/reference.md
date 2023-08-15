@@ -16,7 +16,7 @@ my_list = ["Something", 1, 2.00, True, [100, 200]]
 # At the very end, using append()
 my_list.append("Something")
 
-# At a specific position, using insert()
+# ADVANCED: At a specific position, using insert()
 my_list.insert(0, "Something") # Index 0, so this inserts the element at the beginning.
 my_list.insert(3, "Something") # Index 3, so this inserts the element just after index 2.
 ```
@@ -105,7 +105,7 @@ before reversing it. Using `reverse()` or `reversed()` **do not sort** the list 
 
 🔥🔥🔥
 Note that to use `reversed()` it needs to be wrapped with `list()`. This is called *casting* and it's an advanced
-topic, but just know that you need to do it this way in order to use `reversed` as shown.
+topic, but just know that you need to do it this way in order to use `reversed()` as shown.
 🔥🔥🔥
 
 ```python
