@@ -23,8 +23,8 @@ my_list.insert(3, "Something") # Index 3, so this inserts the element just after
 
 ## Removing Elements ✄
 
-This section mentions the `pop()` method, which also an element from the `list` like `del` does The main difference with 
-`del` is that `pop` returns the value that is being removed, in case you want to do something with it. 
+This section mentions the `pop()` method, which also removes an element from the `list` like `del` does. The main difference with 
+`del` is that `pop` returns the value that is being removed, in case you want to do something else with it. 
 
 ```python
 # From anywhere, without returning a value
