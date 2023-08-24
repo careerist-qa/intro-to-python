@@ -4,7 +4,7 @@
 
 ## Practice the Basics 💪🏻
 
-### Empty, Pre-populated, and Lists within Lists.
+### Empty, Pre-populated, and Lists within Lists
 
 Create three lists:
 
@@ -85,7 +85,7 @@ numbers = [6, 34, 17, 9, 2, 11, 57, 9, 32]
 sorted_numbers = ???(numbers)
 
 # Write code that reverses (flips) the list without disturbing the original.
-# Remember that in this case, some casting is required.
+# Remember that in this case, casting is required.
 reversed_numbers = ???(???(numbers))
 
 # Write code that sorts the list in place, modifying the original.
@@ -213,7 +213,7 @@ print(card_deck[???])
 # Print out the last 3. Do it using POSITIVE indexes.
 print(card_deck[???])
 
-# Do the same, but using NEGATIVE indexes.
+# Print out the last 3 (same as before), but using NEGATIVE indexes.
 print(card_deck[???])
 
 # Print out everything EXCEPT the first and last.
