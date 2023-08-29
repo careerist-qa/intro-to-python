@@ -198,3 +198,50 @@ for char in mixed_string:
 
 print(f"The total sum of numbers in the string is: {sum(found_digits)}")
 ```
+
+### Email Checker 📧
+
+You are working as an intern in a company's IT department. You are given a list of email 
+addresses, and your task is to filter out the ones that are invalid based on the simple 
+criterion that a valid email must contain an "@" symbol.
+
+Sample Output:
+
+```python
+Valid email addresses are: ['john.doe@example.com', 'jane.doe@work.com']
+```
+Here's the incomplete code:
+
+```python
+email_addresses = ['john.doe@example.com', 'jane.doe@work.com', 'invalid.email', 'missing+symbol.com']
+valid_emails = []
+
+for ??? in ???:
+    if "@" in ???:
+        valid_emails.a???(email)
+
+print("Valid email addresses are:", valid_emails)
+```
+
+### Password Strength Checker
+
+You are helping to develop a user registration page for a website. As part of the registration process, 
+you need to ensure that submitted passwords are strong. A strong password should have **at least 8 characters**.
+
+Create a Python program to check the strength of a list of passwords and count how many are strong.
+
+```python
+passwords = ['Passw0rd', 'hello', 'strongPass1', 'weak']
+strong_password_count = 0
+
+for ??? ??? ???:
+    if ???(password) >= 8:
+        strong_password_count ??? 1
+
+print(f"Number of strong passwords: {strong_password_count}")
+
+```
+
+
+
+

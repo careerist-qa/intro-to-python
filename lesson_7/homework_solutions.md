@@ -75,3 +75,29 @@ for char in mixed_string:
 
 print(f"The total sum of numbers in the string is: {sum(found_digits)}")
 ```
+
+### Email Checker
+
+```python
+email_addresses = ['john.doe@example.com', 'jane.doe@work.com', 'invalid.email', 'missing+symbol.com']
+valid_emails = []
+
+for email in email_addresses:
+    if "@" in email:
+        valid_emails.append(email)
+
+print("Valid email addresses are:", valid_emails)
+```
+
+### Password Strength Checker
+
+```python
+passwords = ['Passw0rd', 'hello', 'strongPass1', 'weak']
+strong_password_count = 0
+
+for password in passwords:
+    if len(password) >= 8:
+        strong_password_count += 1
+
+print(f"Number of strong passwords: {strong_password_count}")
+```
