@@ -6,7 +6,7 @@
 
 ### Create a basic `for` loop
 
-Complete the following code in such a way that this loop prints the carachters 
+Complete the following code in such a way that this loop prints the characters 
 of `name` one at a time.
 
 ```python
@@ -103,24 +103,6 @@ for ??? in range(???):
 
 ## Exercises 🏋🏻
 
-###  The Red Crayon 🖍️
-
-Imagine you have a box of crayons, and you're looking for a "Red" crayon. 
-You pull out one crayon at a time from the box. 
-
-Use a `while` loop to simulate this scenario.  As soon as you find the "Red" crayon, stop the loop.
-
-```python
-colors = ["Blue", "Yellow", "Green", "Red", "Purple", "Orange"]
-index = 0
-
-while colors[???] ??? "Red":
-    print(f"Found {colors[index]} crayon. Still looking for Red.")
-    index ??? 1
-
-print("Found the Red crayon!")
-```
-
 ### Digits Only!
 
 **Part one**: Given a string of letters and digits, complete the program to print only the digits. 
@@ -162,24 +144,6 @@ for ??? ??? ???:
 print(f"The number of vowels in the quote is: {vowel_count}")
 ```
 
-### Filename Space Remover
-
-You're trying to organize your files, and you notice that one of your file names contains several spaces, 
-which could lead to errors or difficulties in file management. Your task is to remove all the spaces from 
-the given file name using a `for` loop.
-
-```python
-flawed_file_name = "My Summer Photos 2023"
-fixed_file_name = ""
-
-for ??? ??? ???:
-    if char ??? " ":
-        fixed_file_name += char
-
-print(f"The fixed file name is: {fixed_file_name}")
-
-```
-
 ### Sum of all Digits 🔢
 
 You have a mixed string that contains both letters and numbers, like an alphanumeric password or 
@@ -197,30 +161,6 @@ for char in mixed_string:
         found_digits.a???(int(char))
 
 print(f"The total sum of numbers in the string is: {sum(found_digits)}")
-```
-
-### Email Checker 📧
-
-You are working as an intern in a company's IT department. You are given a list of email 
-addresses, and your task is to filter out the ones that are invalid based on the simple 
-criterion that a valid email must contain an "@" symbol.
-
-Sample Output:
-
-```python
-Valid email addresses are: ['john.doe@example.com', 'jane.doe@work.com']
-```
-Here's the incomplete code:
-
-```python
-email_addresses = ['john.doe@example.com', 'jane.doe@work.com', 'invalid.email', 'missing+symbol.com']
-valid_emails = []
-
-for ??? in ???:
-    if "@" in ???:
-        valid_emails.a???(email)
-
-print("Valid email addresses are:", valid_emails)
 ```
 
 ### Password Strength Checker
@@ -242,6 +182,22 @@ print(f"Number of strong passwords: {strong_password_count}")
 
 ```
 
+###  The Red Crayon 🖍️
 
+Imagine you have a box of crayons, and you're looking for a "Red" crayon. 
+You pull out one crayon at a time from the box. 
 
+Use a `while` loop to simulate this scenario.  As soon as you find the "Red" crayon, stop the loop.
 
+```python
+colors = ["Blue", "Yellow", "Green", "Red", "Purple", "Orange"]
+index = 0
+
+# This should basically say: while the current color being evaluated is 
+# different than "Red", increment to the next color and try again.
+while colors[index] ??? "Red":
+    print(f"Found {colors[index]} crayon. Still looking for Red.")
+    index ??? 1
+
+print("Found the Red crayon!")
+```
