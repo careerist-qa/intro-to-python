@@ -59,21 +59,6 @@
 # at the beginning instead of the end. Your task is to correct these reviews so that they
 # are in the correct order and the punctuation is appropriately placed at the end of the
 # sentence or word.
-
-
-# ---------------------------------------------------------------------
-
-# Challenge 6
-# Palindrome Sentence
-# Write a program to check if a given sentence is a palindrome or not.
-# Ignore spaces, punctuation, and capitalization.
 #
-# Hints:
-# You may find the .lower() method useful for ignoring capitalization
-# Remove spaces
-#
-# Example:
-# Input: "A man a plan a canal Panama" => Output: True
-# Input: "Hello World" => Output: False
-
+# Example: "tcefreP!" -> Perfect!
 
