@@ -16,7 +16,8 @@ temperature = int(input("Enter the temperature in Fahrenheit: "))
 # As a teacher, you want to automate grading. Write a program that
 # takes a student's score as input and prints "Pass" if the score is
 # 50 or above, otherwise print "Fail".
-student_grade = int(input("Enter student's grade: "))
+# Do not forget that the input() function returns a string value and
+# you need to convert it so you can use the value as a number.
 
 # <Your code here>
 
@@ -28,6 +29,11 @@ student_grade = int(input("Enter student's grade: "))
 # "Congratulations, you're eligible for a scholarship!". If it's
 # between 3.0 and 3.49, print "You're on the waiting list."
 # Otherwise, print "Keep up the good work."
+# Do not forget that the input() function returns a string value and
+# you need to convert it so you can use the value as a number.
+# The function int() converts the number to an integer, and the function
+# float() converts the number to a float.
+
 gpa = float(input("Enter your GPA: "))
 
 # <Your code here>
@@ -40,6 +46,8 @@ gpa = float(input("Enter your GPA: "))
 # Otherwise, print "Might want to wait for a better offer."
 original_price = float(input("Enter product original price: "))
 discount_percentage = float(input("Enter discount percentage: "))
+
+discounted_price = # calculate the discounted price here
 
 # <Your code here>
 
@@ -65,16 +73,22 @@ discount_percentage = float(input("Enter discount percentage: "))
 # ---------------------------------------------------------------------
 # Exercise 7: Exercise 7: Tax Bracket Calculator
 # You're building a tax calculation system. Write a program that
-# takes a person's annual income as input. Use nested conditionals
+# takes a person's annual income as input. Use conditionals
 # to determine their tax bracket based on the following rules:
 
 # - If income is less than $40,000, tax rate is 10%.
 # - If income is between $40,000 and $100,000 (inclusive), tax rate is 20%.
 # - If income is greater than $100,000, tax rate is 30%.
-#
+
+# Remember that a tax rate of 10% can be represented as 10/100 or 0.1
+
 # Print the calculated tax amount for the given income.
+annual_income = float(input("Enter your annual income: "))
 
 # <Your code here>
+
+# Print tax amount
+print(f"Your tax amount is ${tax_amount}")
 
 # ---------------------------------------------------------------------
 # Exercise 8: Ticket Pricing System
@@ -97,10 +111,14 @@ discount_percentage = float(input("Enter discount percentage: "))
 # If the password is 8 to 12 characters long, print "Moderate password."
 # If the password is more than 12 characters, print "Strong password
 
+# You can use len() function to get the length of a given string.
+
+password = input("Enter your password: ")
+
 # <Your code here>
 
 # ---------------------------------------------------------------------
-# CHALLENGE: Course Enrollment Eligibility
+# CHALLENGE (OPTIONAL): Course Enrollment Eligibility
 # To solve this exercise, you will need to use the following concepts
 # and methods:
 # - String method .upper()
@@ -140,6 +158,12 @@ student_grade = input("Enter your grade: ")
 course_code = course_code.upper()
 student_grade = student_grade.upper()
 
-# Extract the last three characters of the course code
+# Extract the last three characters of the course code (use string slicing)
+course_suffix =  # your code here
 
+# Check course code and grade to determine eligibility
+if course_suffix == "101":
+    ...  # <Your code here>
+elif course_suffix == "202":
+    ...  # <Your code here>
 # <Your code here>
