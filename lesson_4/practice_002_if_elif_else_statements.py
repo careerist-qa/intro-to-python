@@ -8,4 +8,4 @@
 # If the grade is 60 or more, display 'You’ve got a D!'
 # For anything less than 60, display 'You've got an F!'"
 
-grade = int(input("Enter student grade: "))
+grade = int(input("Enter student's grade: "))
