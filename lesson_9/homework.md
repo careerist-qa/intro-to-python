@@ -49,3 +49,110 @@ full_name(last_name="Mandela", first_name="Nelson") # Prints: Nelson Mandela
 Define a validator function that you can use to determine if a word is longer than 8 characters.
 
 **Tip**: Validator functions return `True / False` which we can use to do thins like print a message.
+
+## Exercises 🏋🏻‍♀️
+
+### FizzBuzz 🐝
+
+You've already solved the FizzBuzz problem, where you print "Fizz" for multiples of 3, "Buzz" for multiples of 5, 
+and "FizzBuzz" for multiples of both 3 and 5. 
+
+Now, your task is to take your existing FizzBuzz code and wrap it into a function called fizzbuzz.
+
+#### Requirements
+- Create a function named fizzbuzz that takes a single argument, number.
+- If the number is a multiple of both 3 and 5, the function should return: `FizzBuzz`
+- If the number is a multiple of 3, the function should return: `Fizz`
+- If the number is a multiple of 5, the function should return: `Buzz`
+- Otherwise, the function should return the number.
+
+```python
+# Pre-code
+number = 15
+
+if number % 3 == 0 and number % 5 == 0:
+    print('FizzBuzz')
+elif number % 3 == 0:
+    print('Fizz')
+elif number % 5 == 0:
+    print('Buzz')
+else:
+    print(number)
+    
+# Wrap it into a function
+def fizzbuzz (???):
+    # Your code here
+    pass
+
+# Call the function
+```
+
+### Anagram
+
+Your next challenge is to implement a function that checks if two given strings are anagrams of each other. 
+An anagram is a word or phrase formed by rearranging the letters of a different word or phrase. 
+For example, "listen" is an anagram of "silent".
+
+#### What You Need to Check
+- The two strings must have the same length.
+- The sorted form of the first string must be equal to the sorted form of the second string.
+
+```python
+# Pre-code
+# Create a function named anagram. The function should take two strings as arguments
+ def ???
+
+    # Check if the lengths of the strings are equal. If not, return False.
+    if ???
+        ???
+
+    # Sort both strings and compare. If they are equal, return True.
+    elif ???
+        ???
+    else:
+        ???
+
+# Test your function with this string
+test_str1 = 'abcde'
+test_str2 = 'edcba'
+
+# Call your function here to test
+```
+
+### Find Max number
+
+Create a function to find the largest number in a list _**without** using the build-in `max()` function_.
+
+- Define a function called `find_max` that takes a list of numbers as an argument.
+- Initialize a variable `result` and set it to the 1st item of the list using `[0]`
+  - This variable will hold the largest number as we iterate through the list.
+- Loop through each number in the list.
+- Check `if number > result`
+  - If it is, update `result` with the new greater number.
+- `return result`
+
+```python
+# Define your function here
+
+# Test the function with a sample list of numbers.
+
+# Output should be the maximum number in the list.
+```
+
+### Even/Odd Checker Function
+
+Your task is to write a function that determines if a given integer is even or odd. 
+The function should print `Even` for even numbers and `Odd` for odd numbers.
+
+#### What You Need to Check
+
+- Determine whether the input number is even or odd.
+- An even number can be exactly divided by 2 without a remainder.
+- An odd number leaves a remainder of 1 when divided by 2.
+
+```python
+# Define a function is_even_odd(number) here
+
+# Test the function calling it using a variety of numbers
+# 1... 10... 5,5... 9...
+```
