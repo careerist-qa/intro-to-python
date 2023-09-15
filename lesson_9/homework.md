@@ -39,9 +39,11 @@ the function and create the function call in such a way that `first_name` and `l
 given in any order and the printed `full_name` would still be correct.
 
 ```python
-full_name("Nelson", "Mandela") # Prints: Nelson Mandela
-full_name(first_name="Nelson", last_name="Mandela") # Prints: Nelson Mandela
-full_name(last_name="Mandela", first_name="Nelson") # Prints: Nelson Mandela
+# Prints: Nelson Mandela
+full_name("Nelson", "Mandela")
+
+# Is there anything you can add to the line below, so the function also prints "Nelson Mandela"?
+full_name("Mandela", "Nelson") 
 ```
 
 ### Returning Values
@@ -54,10 +56,10 @@ Define a validator function that you can use to determine if a word is longer th
 
 ### FizzBuzz 🐝
 
-You've already solved the FizzBuzz problem, where you print "Fizz" for multiples of 3, "Buzz" for multiples of 5, 
-and "FizzBuzz" for multiples of both 3 and 5. 
+You've already solved the FizzBuzz problem, where you print `Fizz` for multiples of 3, `Buzz` for multiples of 5, 
+and `FizzBuzz` for multiples of both 3 and 5. 
 
-Now, your task is to take your existing FizzBuzz code and wrap it into a function called fizzbuzz.
+Now, your task is to take your existing FizzBuzz code and wrap it into a function called `fizzbuzz`.
 
 #### Requirements
 - Create a function named fizzbuzz that takes a single argument, number.
@@ -121,7 +123,7 @@ test_str2 = 'edcba'
 
 ### Find Max number
 
-Create a function to find the largest number in a list _**without** using the build-in `max()` function_.
+Create a function to find the largest number in a list _**without** using the built-in `max()` function_.
 
 - Define a function called `find_max` that takes a list of numbers as an argument.
 - Initialize a variable `result` and set it to the 1st item of the list using `[0]`
@@ -154,5 +156,5 @@ The function should print `Even` for even numbers and `Odd` for odd numbers.
 # Define a function is_even_odd(number) here
 
 # Test the function calling it using a variety of numbers
-# 1... 10... 5,5... 9...
+# 1, 10, 5.5, 9
 ```
