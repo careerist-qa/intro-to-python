@@ -49,14 +49,20 @@ full_name("Mandela", "Nelson")
 ### Returning Values
 
 Define a validator function that you can use to determine if a word is longer than 8 characters.
+After creating the function, make sure to test it. Create a list of words and iterate over this list using a for loop.
 
-**Tip**: Validator functions return `True / False` which we can use to do thins like print a message.
+**Tip**: Validator functions return `True / False` which we can use in conditionals to do things like print a message.
 
 ## Exercises 🏋🏻‍♀️
 
+You're going to revisit some of the algorithms you've already solved. But this time, there's a twist! 
+Your challenge is to solve and encapsulate each algorithm into its own Python function. 
+This will not only help you review these algorithms but also give you valuable practice in defining and 
+using functions.
+
 ### FizzBuzz 🐝
 
-You've already solved the FizzBuzz problem, where you print `Fizz` for multiples of 3, `Buzz` for multiples of 5, 
+You remember FizzBuzz, right? You print `Fizz` for multiples of 3, `Buzz` for multiples of 5, 
 and `FizzBuzz` for multiples of both 3 and 5. 
 
 Now, your task is to take your existing FizzBuzz code and wrap it into a function called `fizzbuzz`.
