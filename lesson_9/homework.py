@@ -86,6 +86,11 @@
 # - The two strings must have the same length.
 # - The sorted form of the first string must be equal to the sorted form of the second string.
 
+# Approach
+# - Create a function that takes two strings as arguments.
+# - Check if the lengths are equal. If they're NOT equal, return False (anagrams are always same length).
+# - Sort both strings. If the sorted versions are equal, they're anagrams!
+
 # Test your function with these strings
 test_str1 = 'abcde'
 test_str2 = 'edcba'
