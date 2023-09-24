@@ -8,8 +8,8 @@
 
 ### Basic Dictionary
 
-Create an empty dictionary for your friends and then add elements. 
-Make the key their email and the value their name.
+Create an empty dictionary and then add a few of your friends. 
+Make the key their email (can be fake) and the value their name.
 
 When you're done, create the same dictionary as a pre-populated dictionary.
 
@@ -27,7 +27,7 @@ Use the previous nested dictionary and write some print statements that
 will answer the following:
 
 - Print a list of the employee IDs
-- Print the employee details for employee with the ID 3.
+- Print the employee data for employee with the ID 3.
 - Loop over the employees and print all their names and salaries.
 
 ### Updating Values
