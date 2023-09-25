@@ -2,6 +2,10 @@
 
 # READ CAREFULLY THE EXERCISE DESCRIPTION AND SOLVE IT RIGHT AFTER IT
 
+################################################################################
+### When solving coding challenges, think about the time complexity (Big O). ###
+################################################################################
+
 # Challenge 1
 # Multiplication of a three-digit number
 #
