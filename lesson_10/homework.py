@@ -9,7 +9,7 @@
 # Challenge 1
 # Multiplication of a three-digit number
 #
-# A program gets a three-digit number and has to sum up all its digits.
+# A program gets a three-digit number and has to multiply all its digits.
 # For example, if a number is 349, the code has to print the number 108, because 3*4*9 = 108.
 #
 # Hints:
