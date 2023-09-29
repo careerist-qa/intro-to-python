@@ -1,10 +1,8 @@
 # Homework: Dictionaries 📚
 
-## Practice the Basics
+## Practice the Basics 💪🏻
 
 🔥 **Read carefully until the end before you start solving the exercises.** 🔥
-
-## Practice the Basics 💪🏻
 
 ### Basic Dictionary
 
