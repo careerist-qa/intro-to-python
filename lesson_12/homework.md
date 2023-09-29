@@ -95,7 +95,7 @@ print(my_car.model)
 print(my_car.year)
 ```
 
-### Exercise 4. Task: SmartHome with Constructor
+### Exercise 4. SmartHome with Constructor
 
 Create a `SmartHome` class that has a constructor `__init__` and a `send_notification()` method.
 
