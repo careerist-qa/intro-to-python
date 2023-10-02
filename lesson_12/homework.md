@@ -82,6 +82,7 @@ message: `"<NAME_OF_VEHICLE> is a <TYPE_OF_VEHICLE>"`
 - Each car will have attributes for model and year. 
 - Unfortunately, the given code below contains several mistakes. 
 - Your task is to find and correct these mistakes to make the code run successfully.
+- **Please include a comment in the code explaining the corrections you made and why.**
 
 ```python
 # Pre-code
@@ -142,29 +143,31 @@ But, the provided code for these classes and their instances has several mistake
 related to hierarchy, class attributes, and instance creation.
 
 Find and correct these mistakes to make the code work properly.
+**Leave a comment in the code explaining what the problem was and why it wouldn't work.
+There are seven mistakes in the pre-code.**
 
 ```python
 # Pre-code
 class Animal:
     def __init__(self, name, age):
-        name = name # Mistake 1: should be self.name = name
-        age = age # Mistake 2: should be self.age = age
+        name = name
+        age = age
 
-class Mammal(Animals): # Mistake 3: "Animals" should be "Animal"
+class Mammal(Animals):
     def __init__(self, name, age, num_legs):
         super().__init__(name, age)
         self.num_legs = num_legs
 
 class Bird(Animal):
     def __init__(self, can_fly): 
-        self.can_fly = can_fly # Mistake 4: Did not call the super().__init__()
+        self.can_fly = can_fly
 
-class Fish(Mammal): # Mistake 5: Fish inheriting from Mammal instead of Animal
+class Fish(Mammal):
     def __init__(self, name, age, num_fins):
         super().__init__(name, age)
         self.num_fins = num_fins
 
 tiger = Mammal('Tiger', 5, 4)
-sparrow = Bird(True) # Mistake 6: Did not pass the name and age
-goldfish = Fish('Goldfish', 2, 'Many') # Mistake 7: 'Many' should be an integer
+sparrow = Bird(True)
+goldfish = Fish('Goldfish', 2, 'Many')
 ```
