@@ -143,7 +143,8 @@ But, the provided code for these classes and their instances has several mistake
 related to hierarchy, class attributes, and instance creation.
 
 Find and correct these mistakes to make the code work properly.
-**Leave a comment in the code explaining what the problem was and why it wouldn't work.**
+**Leave a comment in the code explaining what the problem was and why it wouldn't work.
+There are seven mistakes in the pre-code.**
 
 ```python
 # Pre-code
