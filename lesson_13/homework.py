@@ -23,6 +23,8 @@
 # You'll need to use nested loops: The outer loop will iterate over elements in the first list,
 # and the inner loop will check if that element exists in the second list.
 # Keep track of the common elements found so far to ensure no duplicates are added to the resulting list.
+# To ensure no duplicates are added to the resulting list,
+# check if an element is already present in the "common" list before appending it.
 
 def find_common_elements(list1, list2):
     common = []
@@ -84,21 +86,18 @@ print(test_result)
 
 
 def find_missing_ingredients(recipes, ingredients):
-    # Create an empty list to store the missing ingredients
+# Create an empty list to store the missing ingredients
 
-    # In the outer loop iterate through each recipe in the list of recipes.
+# In the outer loop iterate through each recipe in the list of recipes.
 
-    # In the inner loop check each ingredient in the recipe.
+# In the inner loop check each ingredient in the recipe.
 
-    # Check if the ingredient is not in the list of available ingredients.
+# Check if the ingredient is not in the list of available ingredients
+# and is not already in the list of missing ingredients.
 
-    # Check if the ingredient is not already in the list of missing ingredients.
+# If both conditions are met, add the ingredient to the missing_ingredients list.
 
-    # If both conditions are met, add the ingredient to the missing_ingredients list.
-
-    # Return the list of missing ingredients required for all the recipes.
-
-    # Test the function
+# Return the list of missing ingredients required for all the recipes.
 
 
 # ---------------------------------------------------------------------
@@ -129,7 +128,7 @@ def find_best_recipe(recipes, ingredients):
 
     # Create an outer for loop to go through each recipe in the list of recipes.
 
-    # Create an empty list to store the ingredients we can use from this recipe.
+    # Create an empty list (used_ingredients) to store the ingredients we can use from this recipe.
 
     # Create an inner foor loop to look at each ingredient in this recipe.
 
@@ -137,12 +136,11 @@ def find_best_recipe(recipes, ingredients):
 
     # If it's available, add it to our list of used ingredients.
 
-    # Compare the number of used ingredients in this recipe to the most we've seen so far.
-    #         if len(used_ingredients) > max_used_ingredients:
+    # Check if the current recipe uses more ingredients (using `len` to count)
+    # than the highest count we've recorded so far (max_used_ingredients).
 
-    # If this recipe uses more ingredients, update our best recipe and the count of used ingredients.
-    #             max_used_ingredients = len(used_ingredients)
-    #             best_recipe = recipe
+    # If the current recipe has a higher ingredient count, update max_used_ingredients.
+    # Then set this recipe as the new best.
 
     # Finally, return the best recipe that uses the most ingredients.
 
@@ -191,7 +189,7 @@ def find_peak_element(arr):
 
 # Check the first and last element separately as they don't have neighbors
 
-# Check all elements in between using a for loop
+# Iterate over the range, excluding the first and last indices, as they lack one neighbor.
 
 # Return -1 # if no peak element is found.
 
@@ -216,22 +214,24 @@ def find_peak_element(arr):
 # - Sequential Comparison: Since the list is sorted, duplicates will always be adjacent to each other.
 # Compare each element to the previous one to detect duplicates.
 # - Updating in Place: You can modify the original list as you find unique numbers
-# - and move them to the correct position. Think of this position as where the next unique number should go.
-
+# and move them to the correct position. Think of this position as where the next unique number should go.
 
     def delete_duplicates(arr):
     # 'write_index' points to where the next unique element should be written.
         write_index = 1
 
-    # Start from the second element and go till the last.
+    # Iterate over the list's length, starting from the second element because
+    # the first element doesn't have a previous element to compare against.
 
-    # Check if the current element is different from the previous one.
+    # Compare the current element with its immediate previous element.
 
-    # If true, then it's not a duplicate and needs to be placed at 'write_index'.
+    # If they're different, it's not a duplicate.
+    # Place the current element at the 'write_index' position.
 
-    # Once we have shifted all unique elements to the left, fill the remaining
-    # positions in the list with zeroes.
+    # Then increment 'write_index' by 1 to prepare for the next unique element.
 
+    # Once you have shifted all unique elements to the left,
+    # fill the remaining positions in the list with zeroes.
         for i in range(write_index, len(arr)):
             arr[i] = 0
 
